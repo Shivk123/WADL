@@ -1,0 +1,40 @@
+body {
+    padding-top: 56px;
+    /* Adjust based on your navbar height */
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    top: 56px;
+    /* Adjust based on your navbar height */
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+canvas {
+    max-width: 100%;
+}
